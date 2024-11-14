@@ -104,5 +104,3 @@ This project involved numerous experiments, reflecting the iterative nature of s
 ## Contributing
 We welcome contributions! Please create a pull request or open an issue if you have suggestions.
 
-## License
-This project is licensed under the MIT License.
