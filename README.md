@@ -15,7 +15,10 @@ This project explores the use of Quantum Neural Networks (QNNs) for brain image 
 - [License](#license)
 
 ## Project Overview
-The goal of this project is to analyze brain images using Quantum Neural Networks (QNNs). We aim to leverage Intel optimizations to improve the performance of the neural network models.
+The goal of this project is to analyze brain images using Quantum Neural Networks (QNNs). We aim to leverage Intel optimizations and a quantum layer to improve the performance of the neural network models.
+
+<img width="805" alt="Screenshot 2024-11-14 at 02 41 51" src="https://github.com/user-attachments/assets/b4591cd6-1817-4561-a8d6-a1a011c11b65">
+
 
 ## Installation
 
@@ -83,6 +86,11 @@ This project uses Intel optimizations for better performance:
 
 ## Results
 The project includes performance benchmarks demonstrating the improvements when using Intel optimizations.
+
+<img width="1212" alt="Screenshot 2024-11-14 at 02 38 54" src="https://github.com/user-attachments/assets/015fafc4-be81-4f95-bc1f-484c28966d2f">
+
+<img width="1238" alt="Screenshot 2024-11-14 at 02 39 10" src="https://github.com/user-attachments/assets/e4eb7180-f9e7-44ea-b313-0ec58e281a13">
+
 
 ## Contributing
 We welcome contributions! Please create a pull request or open an issue if you have suggestions.
