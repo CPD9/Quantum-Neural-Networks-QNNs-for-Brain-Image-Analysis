@@ -34,7 +34,9 @@ Install the necessary packages using the following commands:
 
 ```bash
 pip install numpy opencv-python matplotlib torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-pip install intel-extension-for-pytorch openvino habana-torch
+pip install intel-extension-for-pytorch openvino
+pip install torchquantum
+pip install qiskit==0.43.1 qiskit-terra==0.24.1 qiskit-aer==0.12.0 qiskit-ibm-provider==0.6.1 qiskit-ibm-runtime==0.10.0
 ```
 
 ### Step 3: Verify Installation
@@ -51,6 +53,7 @@ To run the project, follow these steps:
    ```bash
    git clone https://github.com/CPD9/Quantum-Neural-Networks-QNNs-for-Brain-Image-Analysis.git
    cd Quantum-Neural-Networks-QNNs-for-Brain-Image-Analysis
+   . QuantumSegnets.ipynb
    ```
 
 2. Activate your virtual environment:
@@ -96,9 +99,9 @@ The project includes performance benchmarks demonstrating the improvements when 
 
 This project involved numerous experiments, reflecting the iterative nature of scientific research. Below are some of the challenges we faced and how we approached them:
 
-- **Intel Tiber Instance Crash**: During one of our experiments, our instance on Intel Tiber crashed. Despite multiple discussions with the Intel team, we couldn't get it back up and running in time. At this point, we had already completed some inferencing with OpenVINO, so we decided to continue running experiments on our local systems to ensure that the models and tests could be validated.
+- **Intel Tiber Instance**: During one of our experiments, our instance on Intel Tiber crashed. Despite multiple discussions with the Intel team, we couldn't get it back up and running in time. At this point, we had already completed some inferencing with OpenVINO. After consulatation with our Mentor Ugonna, we found an alternative to run the code on the Intel Tiber using the notebooks on the learn section. Doing so we were able to run and test our code on Gaudi successfully.
 
-- **Inference and Optimization**: After successfully running the model locally, we optimized the code to ensure compatibility with Intel hardware (Gaudi). We further optimized it using Intel software dependencies, such as Intel Extension for PyTorch. Unfortunately, we were unable to fully test the updated code on Intel Tiber since we no longer had access to the instance. Despite this limitation, the optimizations have been validated conceptually to run on Intel hardware.
+- **Inference and Optimization**: After successfully running the model on Tiber, we optimized the code to ensure compatibility with Intel hardware (Gaudi). We further optimized it using Intel software dependencies, such as Intel Extension for PyTorch. Fortunately, we were unable to successfully test the updated code on Intel Tiber.
 
 
 ## Contributing
