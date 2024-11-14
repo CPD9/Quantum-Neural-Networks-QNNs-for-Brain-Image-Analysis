@@ -101,7 +101,7 @@ This project involved numerous experiments, reflecting the iterative nature of s
 
 - **Intel Tiber Instance**: During one of our experiments, our instance on Intel Tiber crashed. Despite multiple discussions with the Intel team, we couldn't get it back up and running in time. At this point, we had already completed some inferencing with OpenVINO. After consulatation with our Mentor Ugonna, we found an alternative to run the code on the Intel Tiber using the notebooks on the learn section. Doing so we were able to run and test our code on Gaudi successfully.
 
-- **Inference and Optimization**: After successfully running the model on Tiber, we optimized the code to ensure compatibility with Intel hardware (Gaudi). We further optimized it using Intel software dependencies, such as Intel Extension for PyTorch. Fortunately, we were unable to successfully test the updated code on Intel Tiber.
+- **Inference and Optimization**: After successfully running the model locally, we optimised the code for compatibility with Intel hardware (Gaudi) and further refined it using Intel software dependencies. Fortunately, we were able to test the updated code on Intel Tiber by making use of the notebooks on Intels Learn platform which proved to be more than a platform for just eduction.
 
 
 ## Contributing
