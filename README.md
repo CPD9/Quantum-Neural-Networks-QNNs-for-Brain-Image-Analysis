@@ -103,6 +103,7 @@ This project involved numerous experiments, reflecting the iterative nature of s
 
 - **Inference and Optimization**: After successfully running the model locally, we optimised the code for compatibility with Intel hardware (Gaudi) and further refined it using Intel software dependencies. Fortunately, we were able to test the updated code on Intel Tiber by making use of the notebooks on Intels Learn platform which proved to be more than a platform for just eduction.
 
+![Unknown](https://github.com/user-attachments/assets/0e2a3959-efb4-40dc-add6-540cdbe30b4d)
 
 ## Contributing
 We welcome contributions! Please create a pull request or open an issue if you have suggestions.
